@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <title>Ремонт квартин</title>
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-wrap">
+        <div class="header-logo">
+          <img src="img/header/header_logo.jpg" alt="Ремонт квартир">
+        </div>
+        <div class="header-text">
+          <div class="header-text__contacts">
+            <span class="header-text__city">Калуга, Москва, МО</span>
+            <a class="header-text__phone" href="tel:+7495422511">+7 (495) 42-251-31</a>
+          </div>
+          <div class="header-text__button">
+            <button class="button" id="button-callback">Перезвоните <span class="hidden-xs">мне</span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <div class="main-wrap">
+          <div class="main-text">
+            <h1 class="main-text__title">
+              Внутренняя отделка помещений "под&nbsp;ключ"
+              <span>с гарантией качества, прописанной в&nbsp;договоре</span>
+            </h1>
+            <div class="main-advantages">
+              <div class="main-advantages__item">
+                <div class="main-advantages__img main-advantages__img-1"></div>
+                <div class="main-advantages__test">
+                  Точно соблюдаем сроки
+                </div>
+              </div><!-- main-advantages__item -->
+              <div class="main-advantages__item">
+                <div class="main-advantages__img main-advantages__img-2"></div>
+                <div class="main-advantages__test">
+                  Рассчитаем смету на работы и материалы в день обращения
+                </div>
+              </div><!-- main-advantages__item -->
+              <div class="main-advantages__item">
+                <div class="main-advantages__img main-advantages__img-3"></div>
+                <div class="main-advantages__test">
+                  Предложим более 100 вариантов исполнения дизайна Вашего жилья
+                </div>
+              </div><!-- main-advantages__item -->
+            </div>
+          </div>
+          <div class="main-imag">
+            <img src="img/main/main-img.png" alt="План-схема">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="feedback contact__form-background">
+      <div class="container">
+        <div class="form contact__form-white">
+          <div class="contact__form-padding">
+            <h2 class="form__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
+            <span class="form__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
+            <form action="#">
+              <input type="text" class="input input-name form__input" placeholder=" Ваше имя">
+              <label for="#"></label>
+              <input type="tel" class="input input-tel form__input" maxlength="16" minlength="15" pattern="7-[0-9]{03}-[0-9]{2}-[0-9]{2}-[0-9]{3}"
+                placeholder=" Ваше телефон">
+              <button type="submit" class="button form__button">Получить бесплатный дизайн-проект</button>
+            </form>
+            <div class="form__info">
+              <div class="form__manager">
+                <span class="form__callback">Наш менеджер перезвонит Вам в течение 60 секунд</span>
+              </div>
+              <div class="form__contacts new-cont-form">
+                <div class="form__img"></div>
+                <div class="form__contact-text">
+                  <span class="form__callback">или перезвоните нам сами</span>
+                  <a class="form__phone" href="tel:+7495422511">+7 (495) 42-251-31</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="modal-background"></div>
+    <div class="modal" id="modal-callback">
+      <div class="modal__dialog">
+        <div class="modal__close">&#10006;</div>
+        <div class="common">
+          <div class="price">
+            <div class="price-header">
+              <div class="price__wraper">
+                <div class="price__list">
+                  <div class="price__img ">
+                    <img src="img/pricelist/first.png" alt="">
+                  </div>
+                  <div class="price__descr price__descript ">
+
+                    <h4>Ванная комната</h4>
+
+                    <p>135*150 - <span class="money">31 000 руб.</span><br>
+                      170*170 - <span class="money">43 000 руб.</span></p>
+                  </div>
+                </div>
+                <div class="price__list">
+                  <div class="price__img">
+                    <img src="img/pricelist/seccond.png" alt="">
+                  </div>
+                  <div class="price__descr">
+
+                    <h4>Туалет</h4>
+
+                    <p>135*70 - <span class="money">14 000 руб.</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price__list">
+                  <div class="price__img">
+                    <img src="img/pricelist/third.png" alt="">
+                  </div>
+                  <div class="price__descr">
+
+                    <h4>Совмещенный санузел</h4>
+
+                    <p>170*210 - <span class="money">54 000 руб.</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="price__service">
+                <div class="price__row">
+                  <div class="price__works">
+                    <h4>В стоимость работы входит</h4>
+                    <ul>
+                      <li>Демонтаж старого покрития стен и пола</li>
+                      <li>Выравнивае стен гипсовыми составами</li>
+                      <li>Грунтовка стен и пола антисептиком, бетоноконтактом</li>
+                      <li>Монтаж кафельной плитки на полу и стенах</li>
+                      <li>установка реечного или натяжного потолка, светилников</li>
+                      <li>Монтаж дверей с коробков</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-container">
+            <div class="frm">
+              <div class="contact frm-contacts">
+                <h2 class="frm__ttl">Узнайте точную стоимость ремонта по телефону!</h2>
+                <span class="frm__subttl">Заполните поля ниже - мы свяжемся с Вами</span>
+                <form action="#">
+                  <input type="text" class="input frm__input" placeholder=" Ваше имя">
+                  <label for="#"></label>
+                  <input type="tel" class="input frm__input" maxlength="16" minlength="15" pattern="7-[0-9]{03}-[0-9]{2}-[0-9]{2}-[0-9]{3}"
+                    placeholder=" Ваше телефон">
+                  <button type="submit" class="button frm__bttn">Узнать стоимость</button>
+                </form>
+                <div class="frm__inf">
+                  <div class="frm__conts">
+                    <div class="frm__contact-txt">
+                      <span class="frm__call">Или Вы можете перезвонить нам сами по телефону:</span>
+                      <a class="frm__tel" href="tel:+7495422511">+7 (8182) 42-51-31</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="section-title section-title_center">
+          Работая с 2007 года,<br>
+          мы сделали более 500 ремонтов в квартирах и домах
+        </h2>
+        <div class="slider">
+          <div class="slider__item">
+            <img src="img/portfolio/slider-image-1.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="img/portfolio/slider-image-2.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="img/portfolio/slider-image-3.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="img/portfolio/slider-image-1.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="img/portfolio/slider-image-2.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="img/portfolio/slider-image-3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.slider').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          nextArrow: '<div class="arrow arrow_right"></div>',
+          prevArrow: '<div class="arrow arrow_left"></div>',
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
+
+    <script>
+      var button = document.querySelector('#button-callback');
+      var modal = document.querySelector('#modal-callback');
+      var background = document.querySelector('.modal-background');
+      var close = document.querySelector('.modal__close');
+
+      button.addEventListener('click', function () {
+        modal.classList.toggle('modal_visible');
+        background.classList.toggle('background_visible');
+      });
+      close.addEventListener('click', function () {
+        modal.classList.toggle('modal_visible');
+        background.classList.toggle('background_visible');
+      });
+    </script>
+
+
+  </body>
+
+</html>

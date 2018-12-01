@@ -1,0 +1,239 @@
+.modal-background
+  position: fixed
+  background: darkgrey
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  display: none
+  opacity: 0.3
+.background_visible
+  display: block
+  
+body
+  position: relative
+.modal
+  position: absolute
+  width: 100%
+  height: 100%
+  left: 0
+  top: 0
+  z-index: 99
+  display: none
+  &::before
+    position: fixed
+    content: ''
+    width: 100%
+    height: 100%
+    background-color: rgba(#000, 0.52)
+
+
+  &_visible
+    display: flex  
+  &__dialog
+    margin-top: 150px
+    height: 674px   
+    background-color: #f7f7f7
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    @media (max-width: 576px)
+      width: 100%
+  &__close
+    position: absolute
+    top: 15px
+    right: 15px  
+    &:hover
+      cursor: pointer
+  
+
+.form-container
+  display: flex
+  flex-basis: 45% 
+
+  
+.frm
+  overflow: hidden
+  text-align: center
+  width: 570px
+  height: 674px
+  background-color: #ffffff
+  +bold
+  &__contact-txt
+    @media (max-width: 992px)
+      margin-bottom: 20px
+    @media  (max-width:768px)
+      margin-bottom: 20px
+    @media (max-width: 576px)
+      margin-bottom: 20px
+  &-contacts
+    form
+      @media (max-width: 992px)
+        display: flex
+        flex-direction: column
+        align-items: center
+  &__ttl
+    margin: 80px 140px 50px
+    width: 291px
+    height: 54px
+    color: $text-color
+    font-size: 22px
+    line-height: 33px
+    +bold
+    @media (max-width: 576px)
+      margin: 20px 0
+  &__subttl
+    display: block
+    margin-bottom: 50px
+    color: $text-color
+
+
+  &__input
+    margin-top: 15px
+    height: 65px
+    border-radius: 10px
+    border: 1px solid #dddddd
+    background-color: #ffffff
+    @media (min-width: 576px)
+      width: 370px
+    @media (max-width: 576px)
+      max-width: 370px
+      min-width: 270px
+    
+
+  &__bttn
+    margin-top: 30px    
+    margin-left: 4px
+    padding: 28px  
+    height: 70px
+    font-size: 16px
+    @media (min-width: 576px)
+      width: 370px
+    @media (max-width: 576px)
+      max-width: 370px
+      min-width: 270px
+
+     
+  &__call
+    display: inline-block
+    color: $text-color
+    font-size: 15px
+    line-height: 24px
+    margin-top: 32px
+    max-width: 50%
+       
+   
+  &__tel
+    display: block
+    color: $text-color
+    font-size: 24px
+    line-height: 24px
+    text-decoration: none  
+    +bold
+    margin-top: 13px
+
+    
+.common 
+  display: flex
+  justify-content: center
+  width: 100%
+  
+  
+.price
+  flex-basis: 55%
+  width: 600px
+  height: 674px
+  background-color: #f7f7f7
+  &__wraper
+    height: 310px
+    margin: 80px 0px 53px 80px
+    
+
+  &__img
+    margin-top: 15px  
+  &__list 
+    display: flex
+    height: 110px
+    align-items: center
+  &__descr
+    margin-left: 30px
+    @media (max-width: 576px)
+      margin-left: 15px
+      font-size: 13px
+    position: relative  
+    &::after
+      position: absolute
+      content: ""
+      width: 42px
+      height: 2px
+      background-color: #ffd200
+      top: 50%
+      transform: translateY(-50%)
+  &__descript
+    position: relative  
+    &::after
+      position: absolute
+      content: ""
+      width: 42px
+      height: 2px
+      background-color: #ffd200
+      top: 45%
+      transform: translateY(-45%)    
+    h4
+      font-size: 14px
+      +bold    
+  .money
+    +bold  
+  &__works  
+    margin-left: 40px
+    @media (max-width: 576px)
+      margin-left: 25px
+
+
+  &__service
+    max-width: 600px
+    margin-left: 45px
+    margin-bottom: 75px
+    ul
+      padding-left: 20px
+    &__row ul, li
+      text-align: left
+      list-style: none
+      font-size: 14px
+      line-height: 25px
+      position: relative
+      &::before
+        content: ""
+        background-color: #ffd200
+        background-position: 0 0 
+        background-repeat: no-repeat
+        display: inline-block
+        height: 10px
+        width: 10px
+        left: -19px
+        top: 50%
+        position: absolute
+        transform: translateY(-50%)
+        border-radius: 50%
+  &__works p
+    font-size: 14px
+    +bold
+
+
+    
+ 
+
+
+
+    
+
+
+      
+
+
+
+
+ 
