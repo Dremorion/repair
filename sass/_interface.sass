@@ -11,8 +11,17 @@
   &:focus
     outline: none
 
-.input
-  font-size: 15px
-  padding: 25px    
+.input[type="text"],
+.input[type="tel"],
+.input[type="number"],
+.input[type="email"],
+.input[type="password"],
+.input[type="email"]
+  height: 65px
   border-radius: 10px
   border: 1px solid $input-border
+  padding: 24px
+  +light
+  font-size: 15px
+  &:focus
+    outline: none

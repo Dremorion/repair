@@ -95,6 +95,8 @@
         </div>
       </div>
     </section>
+
+
     <div class="modal-background"></div>
     <div class="modal" id="modal-callback">
       <div class="modal__dialog">
@@ -108,9 +110,7 @@
                     <img src="img/pricelist/first.png" alt="">
                   </div>
                   <div class="price__descr price__descript ">
-
                     <h4>Ванная комната</h4>
-
                     <p>135*150 - <span class="money">31 000 руб.</span><br>
                       170*170 - <span class="money">43 000 руб.</span></p>
                   </div>
@@ -120,9 +120,7 @@
                     <img src="img/pricelist/seccond.png" alt="">
                   </div>
                   <div class="price__descr">
-
                     <h4>Туалет</h4>
-
                     <p>135*70 - <span class="money">14 000 руб.</span>
                     </p>
                   </div>
@@ -132,9 +130,7 @@
                     <img src="img/pricelist/third.png" alt="">
                   </div>
                   <div class="price__descr">
-
                     <h4>Совмещенный санузел</h4>
-
                     <p>170*210 - <span class="money">54 000 руб.</span></p>
                   </div>
                 </div>
@@ -184,7 +180,6 @@
     </div>
 
 
-
     <section class="portfolio">
       <div class="container">
         <h2 class="section-title section-title_center">
@@ -214,9 +209,45 @@
       </div>
     </section>
 
-    Tesе
 
 
+    <section class="request">
+      <div class=" container">
+        <div class="request-wrap">
+          <div class="request-questions hidden-md">
+            <h2 class="section__title request__title">Мы можем озвучить Вам примерную стоимость
+              работы и материалов по телефону</h2>
+            <h3 class="section__subtitle request__subtitle request-questions__subtitle">Для этого нужно ответить на 4
+              вопроса:</h3>
+            <ol class="request__list">
+              <li class="request__item">Какова площадь помещения?</li>
+              <li class="request__item">У Вас новостройка или вторичное жилье?</li>
+              <li class="request__item">Где находится помещение, в котором будет производиться ремонт?</li>
+              <li class="request__item">Назначение помещения?</li>
+            </ol>
+          </div>
+          <div class="request-form">
+            <h2 class="section__title request__title">Оставьте заявку на бесплатный
+              расчет ремонта по телефону</h2>
+            <h3 class="section__subtitle request__subtitle">Для этого заполните форму ниже</h3>
+
+            <form action="mailer/smart.php" class="ajax-submit" id="form-3">
+              <div class="request-form-wrap-input"><input class="request-form__input input input-name" type="text" id="user_name"
+                  name="user_name" placeholder="Ваше имя" minlength="5" required></div>
+              <div class="request-form-wrap-input"><input class="request-form__input input input-tel" type="tel" id="user_phone"
+                  name="user_phone" placeholder="Ваш телефон" pattern="\+7[0-9]{10}" required></div>
+
+              <button class="request-form__button button button-submit" type="submit">
+                Рассчитать стоимость
+              </button>
+            </form>
+            <div class="request-form-info__text">
+              Мы перезвоним Вам в течение 60 секунд
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
@@ -255,26 +286,26 @@
         });
 
 
-        $('.js-ajax').on('submit', function () {
-          var fioVal = $('[name = fio]').val();
-          phoneVal = $('[name = phone]').val();
+        // $('.js-ajax').on('submit', function () {
+        //   var fioVal = $('[name = fio]').val();
+        //   phoneVal = $('[name = phone]').val();
 
 
-          $.ajax({
-            url: 'mail.php',
+        //   $.ajax({
+        //     url: 'mail.php',
 
-            data: { fio: fioVal, phone: phoneVal },
-            success: function (data) {
-              if (data == 1)
-                alert("Сообщение доставлено")
-              else
-                alert("Проблемы на стороне сервера");
+        //     data: { fio: fioVal, phone: phoneVal },
+        //     success: function (data) {
+        //       if (data == 1)
+        //         alert("Сообщение доставлено")
+        //       else
+        //         alert("Проблемы на стороне сервера");
 
-            }
-          });
+        //     }
+        //   });
 
-          return false;
-        });
+        //   return false;
+        // });
       });
     </script>
 
