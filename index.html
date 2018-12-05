@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Ремонт квартин</title>
 
   </head>
@@ -104,42 +105,42 @@
       <div class="modal__dialog">
         <div class="modal__close">&#10006;</div>
         <div class="common">
-          <div class="price">
-            <div class="price-header">
-              <div class="price__wraper">
-                <div class="price__list">
-                  <div class="price__img ">
-                    <img src="img/pricelist/first.png" alt="">
+          <div class="cards">
+            <div class="cards-header">
+              <div class="cards__wraper">
+                <div class="cards__list">
+                  <div class="cards__img ">
+                    <img src="img/cardslist/first.png" alt="">
                   </div>
-                  <div class="price__descr price__descript ">
+                  <div class="cards__descr cards__descript ">
                     <h4>Ванная комната</h4>
                     <p>135*150 - <span class="money">31 000 руб.</span><br>
                       170*170 - <span class="money">43 000 руб.</span></p>
                   </div>
                 </div>
-                <div class="price__list">
-                  <div class="price__img">
-                    <img src="img/pricelist/seccond.png" alt="">
+                <div class="cards__list">
+                  <div class="cards__img">
+                    <img src="img/cardslist/seccond.png" alt="">
                   </div>
-                  <div class="price__descr">
+                  <div class="cards__descr">
                     <h4>Туалет</h4>
                     <p>135*70 - <span class="money">14 000 руб.</span>
                     </p>
                   </div>
                 </div>
-                <div class="price__list">
-                  <div class="price__img">
-                    <img src="img/pricelist/third.png" alt="">
+                <div class="cards__list">
+                  <div class="cards__img">
+                    <img src="img/cardslist/third.png" alt="">
                   </div>
-                  <div class="price__descr">
+                  <div class="cards__descr">
                     <h4>Совмещенный санузел</h4>
                     <p>170*210 - <span class="money">54 000 руб.</span></p>
                   </div>
                 </div>
               </div>
-              <div class="price__service">
-                <div class="price__row">
-                  <div class="price__works">
+              <div class="cards__service">
+                <div class="cards__row">
+                  <div class="cards__works">
                     <h4>В стоимость работы входит</h4>
                     <ul>
                       <li>Демонтаж старого покрития стен и пола</li>
@@ -252,11 +253,68 @@
     </section>
 
 
+    <section class="price">
+      <div class="container">
+        <h2 class="section__title price__title">У нас очень гибкая система&nbsp;скидок
+          <br>на комплексные работы!</h2>
+        <h3 class="section__subtitle price__subtitle">Прайс на наши услуги</h3>
+        <div class="price-cards">
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.2s">
+            <div class="price-cards__img">
+              <img src="img/price/1.png" alt="Наш товар">
+            </div>
+            <div class="price-cards__title">Ремонт ванных комнат и с/у </div>
+            <a href="#" class="price-cards__price-href">Узнать цены</a>
+          </div>
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.4s">
+            <div class="price-cards__img">
+              <img src="img/price/2.png" alt="Наш товар">
+            </div>
+            <div class="price-cards__title">Ремонт комнат и квартир </div>
+            <a href="#" class="price-cards__price-href">Узнать цены</a>
+          </div>
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.6s">
+            <div class="price-cards__img">
+              <img src="img/price/3.png" alt="Наш товар">
+            </div>
+            <div class="price-cards__title">Отделка офисных помещений </div>
+            <a href="#" class="price-cards__price-href">Узнать цены</a>
+          </div>
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.2s">
+            <div class="price-cards__img">
+              <img src="img/price/4.png" alt="Наш товар">
+            </div>
+            <div class="price-cards__title">Ремонт в новостройках </div>
+            <a href="#" class="price-cards__price-href">Узнать цены</a>
+          </div>
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.4s">
+            <div class="price-cards__img">
+              <img src="img/price/5.png" alt="Наш товар">
+            </div>
+            <div class="price-cards__title">Ремонт кухонь </div>
+            <a href="#" class="price-cards__price-href">Узнать цены</a>
+          </div>
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.6s">
+            <div class="price-cards__img">
+              <img src="img/price/6.png" alt="Наш товар">
+            </div>
+            <div class="price-cards__title">Ремонт дач и коттеджей </div>
+            <a href="#" class="price-cards__price-href">Узнать цены</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
 
+
+    <script>
+      new WOW().init();
+    </script>
   </body>
 
 </html>
