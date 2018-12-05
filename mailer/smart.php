@@ -12,13 +12,13 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'mail@mail.ru';                 // Наш логин
-$mail->Password = '032ujfw9';                           // Наш пароль от ящика
+$mail->Username = 'undeath90@mail.ru';                 // Наш логин
+$mail->Password = 'q627462q';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('mail@mail.ru', 'John Doe');   // От кого письмо 
-$mail->addAddress('mail@yandex.ru');     // Add a recipient
+$mail->setFrom('undeath90@mail.ru', 'Drema');   // От кого письмо 
+$mail->addAddress('undeath0zon@gmail.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -27,7 +27,7 @@ $mail->addAddress('mail@yandex.ru');     // Add a recipient
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Это тема сообщения';
+$mail->Subject = 'Тест урока по AJAX';
 $mail->Body    = '
 	Пользователь оставил свои данные <br> 
 	Имя: ' . $name . ' <br>

@@ -1,8 +1,12 @@
 <?php
-die('test');
-if (mail("undeath00zon@gmail.com", "Test Ajax", $_REQUEST["fio"] . " " . $_REQUEST["phone"]))
-    echo "1";
+echo "Принято! ";
+$name = $_REQUEST["name"];
+$tel = $_REQUEST["tel"];
+echo($name . " ");
+echo($tel);
+if (mail("undeath0zon@gmail.com", "Test AJAX", $_REQUEST["fio"] . "  " . $_REQUEST["tel"]))
+  echo "success";
 else {
-    echo "0";
-}  
-?>  
+  echo "fail!";
+}
+?>
