@@ -17,12 +17,12 @@
     <header class="header">
       <div class="container header-wrap">
         <div class="header-logo">
-          <img src="img/header/header_logo.jpg" class="wow zoomInUp" alt="Ремонт квартир">
+          <img src="img/header/header_logo.jpg" class="wow zoomInUp" data-wow-delay="0.2s" alt="Ремонт квартир">
         </div>
         <div class="header-text">
           <div class="header-text__contacts">
             <span class="header-text__city">Калуга, Москва, МО</span>
-            <a class="header-text__phone wow flash" data-wow-delay="0.2s" data-wow-iteration="4" href="tel:+7495422511">+7
+            <a class="header-text__phone wow flash" data-wow-delay="0.4s" data-wow-iteration="4" href="tel:+7495422511">+7
               (495) 42-251-31</a>
           </div>
           <div class="header-text__button">
@@ -42,19 +42,19 @@
               <span>с гарантией качества, прописанной в&nbsp;договоре</span>
             </h1>
             <div class="main-advantages">
-              <div class="main-advantages__item wow fadeInRight">
+              <div class="main-advantages__item wow fadeInRight" data-wow-delay="0.4s">
                 <div class="main-advantages__img main-advantages__img-1"></div>
                 <div class="main-advantages__test">
                   Точно соблюдаем сроки
                 </div>
               </div><!-- main-advantages__item -->
-              <div class="main-advantages__item wow fadeIn">
+              <div class="main-advantages__item wow fadeIn" data-wow-delay="0.4s">
                 <div class="main-advantages__img main-advantages__img-2"></div>
                 <div class="main-advantages__test">
                   Рассчитаем смету на работы и материалы в день обращения
                 </div>
               </div><!-- main-advantages__item -->
-              <div class="main-advantages__item wow fadeInLeft">
+              <div class="main-advantages__item wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="main-advantages__img main-advantages__img-3"></div>
                 <div class="main-advantages__test">
                   Предложим более 100 вариантов исполнения дизайна Вашего жилья
@@ -63,7 +63,7 @@
             </div>
           </div>
           <div class="main-imag">
-            <img src="img/main/main-img.png" class="wow zoomIn" data-wow-delay="0.3s" alt="План-схема">
+            <img src="img/main/main-img.png" class="wow zoomIn" data-wow-delay="0.5s" alt="План-схема">
           </div>
         </div>
       </div>
@@ -77,21 +77,23 @@
             <h2 class="form__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
             <span class="form__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
             <form action="mailer/smart.php" class="ajax-submit" method="POST" id="form-1">
-              <input class="input input-name form__input wow tada" type="text" id="user_name" name="user_name"
-                minlength="2" placeholder="Ваше имя" required>
-              <input class="input input-tel form__input wow tada" type="tel" id="user_phone" name="user_phone"
+              <input class="input input-name form__input wow tada" data-wow-delay="0.3s" type="text" id="user_name"
+                name="user_name" minlength="2" placeholder="Ваше имя" required>
+              <input class="input input-tel form__input wow tada" data-wow-delay="0.3s" type="tel" id="user_phone" name="user_phone"
                 placeholder="Ваш телефон" required>
-              <button type="submit" class="button form__button wow tada">Получить бесплатный дизайн-проект</button>
+              <button type="submit" class="button form__button wow tada" data-wow-delay="0.3s">Получить бесплатный
+                дизайн-проект</button>
             </form>
             <div class="form__info">
               <div class="form__manager">
                 <span class="form__callback">Наш менеджер перезвонит Вам в течение 60 секунд</span>
               </div>
               <div class="form__contacts new-cont-form">
-                <div class="form__img wow flash data-wow-delay=" 0.2s data-wow-iteration="2"></div>
+                <div class="form__img wow flash data-wow-delay=" 0.2s data-wow-iteration="2" data-wow-delay="0.3s"></div>
                 <div class="form__contact-text">
                   <span class="form__callback">или перезвоните нам сами</span>
-                  <a class="form__phone wow flash" data-wow-delay="0.2s" data-wow-iteration="3" href="tel:+7495422511">+7
+                  <a class="form__phone wow flash" data-wow-delay="0.2s" data-wow-iteration="3" data-wow-delay="0.4s"
+                    href="tel:+7495422511">+7
                     (495) 42-251-31</a>
                 </div>
               </div>
@@ -191,7 +193,7 @@
           Работая с 2007 года,<br>
           мы сделали более 500 ремонтов в квартирах и домах
         </h2>
-        <div class="slider wow fadeInLeft">
+        <div class="slider wow fadeInLeft" data-wow-delay="0.4s">
           <div class="slider__item">
             <img src="img/portfolio/slider-image-1.jpg" alt="">
           </div>
@@ -294,7 +296,7 @@
             </div>
           </div>
           <div class="steps-cards__item ">
-            <div class="steps-cards__img wow shake" data-wow-delay="0.6s">
+            <div class="steps-cards__img wow shake" data-wow-delay="0.5s">
               <img src="img/steps/3.png" class="wow rotateIn" data-wow-iteration="2" alt="Наш товар">
             </div>
             <div class="steps-cards__title">Рассчитываем смету
@@ -312,7 +314,7 @@
             </div>
           </div>
           <div class="steps-cards__item">
-            <div class="steps-cards__img  wow shake" data-wow-delay=" 1s">
+            <div class="steps-cards__img  wow shake" data-wow-delay=" 0.8s">
               <img src="img/steps/5.png" class="wow rotateIn" data-wow-iteration="2" alt="Наш товар">
             </div>
             <div class="steps-cards__title">Выполняем ремонт
@@ -324,7 +326,7 @@
     </section>
 
 
-    <section class="wholesale wow fadeInDown">
+    <section class="wholesale wow fadeInLeft" data-wow-delay="0.3s">
       <div class="container">
         <div class="wholesale__text">
           Ремонт обойдется Вам дешевле, так как
@@ -339,12 +341,14 @@
     <section class="request ">
       <div class=" container ">
         <div class="request-wrap">
-          <div class="request-questions hidden-md wow fadeInLeft">
-            <h2 class="section__title request__title">Мы можем озвучить Вам примерную стоимость
+          <div class="request-questions hidden-md wow">
+            <h2 class="section__title request__title wow slideInDown" data-wow-delay="0.3s">Мы можем озвучить Вам
+              примерную стоимость
               работы и материалов по телефону</h2>
-            <h3 class="section__subtitle request__subtitle request-questions__subtitle">Для этого нужно ответить на 4
+            <h3 class="section__subtitle request__subtitle request-questions__subtitle wow slideInDown" data-wow-delay="0.3s">Для
+              этого нужно ответить на 4
               вопроса:</h3>
-            <ol class="request__list ">
+            <ol class="request__list wow slideInUp" data-wow-delay="0.3s">
               <li class="request__item">Какова площадь помещения?</li>
               <li class="request__item">У Вас новостройка или вторичное жилье?</li>
               <li class="request__item">Где находится помещение, в котором будет производиться ремонт?</li>
