@@ -1,0 +1,78 @@
+.footer
+  display: flex
+  justify-content: flex-start
+  @media (max-width: 768px)
+    flex-direction: column
+    align-items: center
+  &-map
+    width: 54.4%
+    height: 640px
+    @media (max-width: 768px)
+      width: 100%
+  &-contacts
+    max-width: 440px
+    padding: 91px 10px 91px 133px
+    @media (max-width: 1232px)
+      padding: 80px 0 80px 90px
+    @media (max-width: 992px)
+      padding-right: 45px
+    @media (max-width: 768px)
+      max-width: 95%
+      padding: 50px 0 40px 0
+      display: flex
+      flex-direction: column
+      align-items: center  
+    &__title
+      margin-bottom: 90px
+      font-size: 22px
+      @media (max-width: 992px)
+        margin-bottom: 60px
+        font-size: 20px
+        text-align: center
+      @media (max-width: 768px)
+        text-align: center
+        margin-bottom: 30px
+        font-size: 22px
+      @media (max-width: 450px)
+        margin-bottom: 20px
+        font-size: 18px  
+    &__list
+      padding-left: 40px
+      list-style: none
+    &__item
+      position: relative
+      +light
+      font-size: 16px
+      line-height: 26px
+      color: #000000
+      margin-bottom: 28px
+      strong
+        display: block
+        width: 160px
+      a
+        color: #000000
+        text-decoration: none
+      @media (max-width: 768px)
+         margin-bottom: 15px
+      @media (max-width: 450px)
+        margin-bottom: 10px
+        font-size: 14px
+        line-height: 1.5     
+      &::before
+        content: ''
+        position: absolute
+        width: 20px
+        height: 20px
+        left: -40px
+        top: 7px
+        background-repeat: no-repeat
+      &-map::before
+        background-image: url('../img/geo-primary.png')
+      &-clock::before
+        background-image: url('../img/clock-primary.png')
+      &-phone::before
+        background-image: url('../img/phone-primary.png')
+
+
+
+
