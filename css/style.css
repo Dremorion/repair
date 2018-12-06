@@ -1646,6 +1646,67 @@ body {
   color: #000;
 }
 
+.wholesale {
+  background-color: #ffd200;
+  padding: 89px 0;
+}
+
+@media (max-width: 1232px) {
+  .wholesale {
+    padding: 70px 0 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wholesale {
+    padding: 60px 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wholesale {
+    padding: 50px 0 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .wholesale {
+    padding: 40px 0 30px;
+  }
+}
+
+.wholesale__text {
+  font-family: 'Museo Sans Light' , sans-serif;
+  color: #000000;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .wholesale__text {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .wholesale__text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .wholesale__text {
+    font-size: 16px;
+  }
+}
+
+.white {
+  padding: 20px 0 20px;
+  background-color: #ffffff;
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

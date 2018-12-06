@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ремонт квартин</title>
-
   </head>
+
 
   <body>
     <header class="header">
@@ -21,7 +22,8 @@
         <div class="header-text">
           <div class="header-text__contacts">
             <span class="header-text__city">Калуга, Москва, МО</span>
-            <a class="header-text__phone wow flash" data-wow-delay="0.2s" href="tel:+7495422511">+7 (495) 42-251-31</a>
+            <a class="header-text__phone wow flash" data-wow-delay="0.2s" data-wow-iteration="4" href="tel:+7495422511">+7
+              (495) 42-251-31</a>
           </div>
           <div class="header-text__button">
             <button class="button" id="button-callback">Перезвоните <span class="hidden-xs">мне</span></button>
@@ -29,6 +31,7 @@
         </div>
       </div>
     </header>
+
 
     <div class="main">
       <div class="container">
@@ -73,7 +76,6 @@
           <div class="contact__form-padding">
             <h2 class="form__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
             <span class="form__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
-
             <form action="mailer/smart.php" class="ajax-submit" method="POST" id="form-1">
               <input class="input input-name form__input wow tada" type="text" id="user_name" name="user_name"
                 minlength="2" placeholder="Ваше имя" required>
@@ -81,16 +83,16 @@
                 placeholder="Ваш телефон" required>
               <button type="submit" class="button form__button wow tada">Получить бесплатный дизайн-проект</button>
             </form>
-
             <div class="form__info">
               <div class="form__manager">
                 <span class="form__callback">Наш менеджер перезвонит Вам в течение 60 секунд</span>
               </div>
               <div class="form__contacts new-cont-form">
-                <div class="form__img wow flash" data-wow-delay="0.2s"></div>
+                <div class="form__img wow flash data-wow-delay=" 0.2s data-wow-iteration="2"></div>
                 <div class="form__contact-text">
                   <span class="form__callback">или перезвоните нам сами</span>
-                  <a class="form__phone wow flash" data-wow-delay="0.2s" href="tel:+7495422511">+7 (495) 42-251-31</a>
+                  <a class="form__phone wow flash" data-wow-delay="0.2s" data-wow-iteration="3" href="tel:+7495422511">+7
+                    (495) 42-251-31</a>
                 </div>
               </div>
             </div>
@@ -213,46 +215,6 @@
     </section>
 
 
-
-    <section class="request ">
-      <div class=" container ">
-        <div class="request-wrap">
-          <div class="request-questions hidden-md wow fadeInLeft">
-            <h2 class="section__title request__title">Мы можем озвучить Вам примерную стоимость
-              работы и материалов по телефону</h2>
-            <h3 class="section__subtitle request__subtitle request-questions__subtitle">Для этого нужно ответить на 4
-              вопроса:</h3>
-            <ol class="request__list ">
-              <li class="request__item">Какова площадь помещения?</li>
-              <li class="request__item">У Вас новостройка или вторичное жилье?</li>
-              <li class="request__item">Где находится помещение, в котором будет производиться ремонт?</li>
-              <li class="request__item">Назначение помещения?</li>
-            </ol>
-          </div>
-          <div class="request-form">
-            <h2 class="section__title request__title">Оставьте заявку на бесплатный
-              расчет ремонта по телефону</h2>
-            <h3 class="section__subtitle request__subtitle">Для этого заполните форму ниже</h3>
-
-            <form action="mailer/smart.php" class="ajax-submit" method="POST" id="form-3">
-              <div class="request-form-wrap-input"><input class="request-form__input input input-name wow shake" type="text"
-                  id="user_name" name="user_name" placeholder="Ваше имя" minlength="5" required></div>
-              <div class="request-form-wrap-input"><input class="request-form__input input input-tel wow shake" type="tel"
-                  id="user_phone" name="user_phone" placeholder="Ваш телефон" required></div>
-
-              <button class="request-form__button button button-submit wow shake" type="submit">
-                Рассчитать стоимость
-              </button>
-            </form>
-            <div class="request-form-info__text wow flash" data-wow-iteration="3">
-              Мы перезвоним Вам в течение 60 секунд
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
     <section class="price">
       <div class="container">
         <h2 class="section__title price__title">У нас очень гибкая система&nbsp;скидок
@@ -294,7 +256,7 @@
             <div class="price-cards__title">Ремонт кухонь </div>
             <a href="#" class="price-cards__price-href">Узнать цены</a>
           </div>
-          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.6s">
+          <div class="price-cards__item  wow fadeInUp" data-wow-delay="0.5s">
             <div class="price-cards__img">
               <img src="img/price/6.png" alt="Наш товар">
             </div>
@@ -360,6 +322,58 @@
         </div>
       </div>
     </section>
+
+
+    <section class="wholesale wow fadeInDown">
+      <div class="container">
+        <div class="wholesale__text">
+          Ремонт обойдется Вам дешевле, так как
+          <br>
+          мы используем качественные материалы по оптовым ценам
+        </div>
+      </div>
+    </section>
+
+    <section class="white"></section>
+
+    <section class="request ">
+      <div class=" container ">
+        <div class="request-wrap">
+          <div class="request-questions hidden-md wow fadeInLeft">
+            <h2 class="section__title request__title">Мы можем озвучить Вам примерную стоимость
+              работы и материалов по телефону</h2>
+            <h3 class="section__subtitle request__subtitle request-questions__subtitle">Для этого нужно ответить на 4
+              вопроса:</h3>
+            <ol class="request__list ">
+              <li class="request__item">Какова площадь помещения?</li>
+              <li class="request__item">У Вас новостройка или вторичное жилье?</li>
+              <li class="request__item">Где находится помещение, в котором будет производиться ремонт?</li>
+              <li class="request__item">Назначение помещения?</li>
+            </ol>
+          </div>
+          <div class="request-form">
+            <h2 class="section__title request__title">Оставьте заявку на бесплатный
+              расчет ремонта по телефону</h2>
+            <h3 class="section__subtitle request__subtitle">Для этого заполните форму ниже</h3>
+
+            <form action="mailer/smart.php" class="ajax-submit" method="POST" id="form-3">
+              <div class="request-form-wrap-input"><input class="request-form__input input input-name wow shake" type="text"
+                  id="user_name" name="user_name" placeholder="Ваше имя" minlength="5" required></div>
+              <div class="request-form-wrap-input"><input class="request-form__input input input-tel wow shake" type="tel"
+                  id="user_phone" name="user_phone" placeholder="Ваш телефон" required></div>
+
+              <button class="request-form__button button button-submit wow shake" type="submit">
+                Рассчитать стоимость
+              </button>
+            </form>
+            <div class="request-form-info__text wow flash" data-wow-iteration="3">
+              Мы перезвоним Вам в течение 60 секунд
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/slick.min.js"></script>
