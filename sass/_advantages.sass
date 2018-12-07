@@ -1,0 +1,45 @@
+.advantages
+  background: #fff
+  padding: 100px 0 80px
+  @media (max-width: 1232px)
+    padding: 60px 0
+  @media (max-width: 768px)
+    padding: 50px 0 40px 
+  @media (max-width: 450px) 
+    padding: 40px 0 30px   
+  &-wrap
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+  &__item
+    width: 370px
+    height: 411px
+    background:
+      color: $light-bg-color
+      repeat: no-repeat
+      position: bottom
+      size: 100% auto
+    padding: 25px
+    margin-bottom: 20px
+    @media (max-width: 810px)
+      margin-right: 30px
+    @media (max-width: 768px)
+      margin-right: 0    
+    &:not(:last-child)
+      margin-right: 30px
+      @media (max-width: 768px)
+        margin-right: 0 
+    &-1
+      background-image: url('../img/advantages/1.png')
+    &-2
+      background-image: url('../img/advantages/2.png')
+    &-3
+      background-image: url('../img/advantages/3.png')
+  &__text
+    +light
+    color: #000
+    font-size: 16px
+    line-height: 23px
+    margin: 0
+
+  
