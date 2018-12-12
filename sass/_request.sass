@@ -73,15 +73,19 @@
       padding-right: 0  
       padding-left: 0 
     @media (max-width: 768px)
-      padding-top: 50px
-      padding-bottom: 40px
+      padding-top: 20px
+      padding-bottom: 25px
     &__subtitle
       @media (max-width: 1232px)
         margin-bottom: 92px
-      margin-bottom: 96px
-        margin-bottom: none
   &__list
     margin-left: -9px
+    @media (max-width: 992px)
+      margin-left: 70px
+    @media (max-width: 500px) 
+      margin-left: 40px
+    @media (max-width: 500px)
+      margin-left: 0 
   &__item
     position: relative
     +medium
@@ -126,7 +130,7 @@
       padding-right: 0  
       padding-left: 0 
     @media (max-width: 768px)
-      padding-top: 50px
+      padding-top: 0px
       padding-bottom: 40px
     &__input
       width: 100%

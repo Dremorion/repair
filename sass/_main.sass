@@ -1,6 +1,7 @@
 .main
   background-color: $light-bg-color
   padding: 60px 0
+  position: relative
   &-wrap
     display: flex
   &-text
@@ -15,8 +16,18 @@
         font-size: 20px
         display: block
         margin-top: 20px
-  &-image
-    flex-basis: 50%  
+  &-imag
+    position: absolute
+    left: 53%
+    top: 50%
+    flex-basis: 50% 
+    z-index: 9
+    transform: translateY(-50%)
+    @media (min-width: 1199px)
+      top: 0
+      transform: translateY(0)
+    @media (max-width: 768px)
+      display: none
   &-advantages  
     display: flex
     flex-direction: column

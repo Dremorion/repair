@@ -3,14 +3,22 @@
   background-color: #fff
   background-size: contain
   position: relative
+  @media (max-width: 1199px)
+    margin: 94px 0px 0px
+  @media (min-width:320px)
+    margin: 0  
+
 
 .contact__form-background
   background: url('../img/feedback/feedback-bg.jpg') no-repeat 100% 0px
   background-size: contain
+  @media (max-width: 1199px)
+    background: none
 .contact__form-white
   background: white
 .contact__form-padding
   padding: 20px
+
 
 
 .form
@@ -29,8 +37,7 @@
     &:first-child 
       margin-right: 30px
   &__button
-    padding: 28px  
-    display: block
+    padding: 25px  
     width: 100%
     font-size: 16px
 
@@ -52,7 +59,8 @@
   &__contacts
     display: block
     display: flex
-    width: 300px
+    margin-top: 10px
+    // width: 300px
 
 
   &__img

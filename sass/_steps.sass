@@ -29,7 +29,7 @@
   @media (max-width: 768px)
     margin-bottom: 30px
   @media (max-width: 450px)
-    margin-bottom: 20px
+    margin-bottom: 0px
     font-size: 16px       
   &-cards
     display: flex
@@ -43,6 +43,12 @@
       width: 150px
       height: 225px
       text-align: center
+      @media (max-width: 1199px)
+        width: 130px
+      @media (max-width: 1127px)
+        width: 214px
+      @media (max-width: 992px)
+        width: 185px
       &:not(:first-of-type)
         margin-left: 80px
         @media (max-width: 1127px) 
@@ -64,7 +70,7 @@
           height: 75px
           width: 84px
           @media (max-width: 1127px) 
-            left: -60px
+            display: none
           @media (max-width: 992px)
             display: none  
  
